@@ -60,7 +60,7 @@ Final Response
 
 ##  Demo
 
-![alt text](image-2.png)
+![alt text](image.png)
 ```
 /assets/demo.png
 ```
