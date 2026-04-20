@@ -1,6 +1,6 @@
-# 📄 GenAI RAG Chat Application (Streamlit)
+#  GenAI RAG Chat Application (Streamlit)
 
-## 🚀 Overview
+##  Overview
 
 This project is a **Streamlit-based GenAI application** that allows users to upload a PDF and ask questions about its content using a **Retrieval-Augmented Generation (RAG)** pipeline.
 
@@ -8,7 +8,7 @@ The system retrieves relevant document chunks and generates **grounded, context-
 
 ---
 
-## 🎯 Features
+##  Features
 
 * 📂 Upload PDF documents
 * 🔍 Semantic search using vector embeddings (FAISS)
@@ -98,7 +98,7 @@ streamlit run app.py
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 * Ensure the PDF contains selectable text (not scanned images)
 * For enterprise setups, configure correct `base_url` and model name

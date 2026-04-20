@@ -39,7 +39,7 @@ if uploaded_file:
         # ][:3]
 
         # From where answer came from
-        # st.subheader("📚 Retrieved Context")
+        # st.subheader(" Retrieved Context")
 
         # for i, doc in enumerate(retrieved_docs):
         #     st.write(f"Chunk {i+1}:")
