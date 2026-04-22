@@ -21,11 +21,11 @@ This project demonstrates how modern GenAI systems can be built to:
 
 ##  Features
 
-* 📂 Upload PDF documents
-* 🔍 Semantic search using vector embeddings (**FAISS**)
-* 🤖 LLM-powered question answering
-* 🧠 Context-aware responses using RAG
-* 💬 Chat interface with session memory
+* Upload PDF documents
+* Semantic search using vector embeddings (**FAISS**)
+* LLM-powered question answering
+* Context-aware responses using RAG
+* Chat interface with session memory
 
 ---
 
@@ -119,7 +119,7 @@ OPENAI_BASE_URL=your_base_url
 
 ---
 
-## ▶️ Run the Application
+## Run the Application
 
 ```bash
 streamlit run app.py
@@ -146,7 +146,7 @@ streamlit run app.py
 
 ---
 
-# 🐳 Docker Setup
+# Docker Setup
 
 ## Prerequisites
 
@@ -313,7 +313,7 @@ This project was built as part of a hands-on session on:
 
 ---
 
-## 📄 License
+## License
 
 For educational purposes only.
 
