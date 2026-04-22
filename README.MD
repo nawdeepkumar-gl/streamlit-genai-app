@@ -127,7 +127,7 @@ streamlit run app.py
 
 ---
 
-## 🧪 How to Use
+## How to Use
 
 1. Upload a PDF file
 2. Enter a question related to the document
@@ -138,7 +138,7 @@ streamlit run app.py
 
 ---
 
-## 📝 Notes
+## Notes
 
 * Ensure the PDF contains **selectable text** (not scanned images)
 * For enterprise setups, configure correct `base_url` and model name
@@ -148,7 +148,7 @@ streamlit run app.py
 
 # 🐳 Docker Setup
 
-## 📦 Prerequisites
+## Prerequisites
 
 * Windows 10/11 (64-bit)
 * WSL2 enabled
@@ -157,7 +157,7 @@ streamlit run app.py
 
 ---
 
-## ⚙️ Step 1: Install Docker
+## Step 1: Install Docker
 
 1. Download Docker Desktop:
    https://www.docker.com/products/docker-desktop/
@@ -168,7 +168,7 @@ streamlit run app.py
 
 ---
 
-## 🔍 Step 2: Verify Installation
+## Step 2: Verify Installation
 
 ```bash
 docker version
@@ -178,7 +178,7 @@ Ensure both **Client** and **Server** are visible.
 
 ---
 
-## 🔐 Step 3: Fix Permission Issue (WSL)
+## Step 3: Fix Permission Issue (WSL)
 
 ```bash
 sudo usermod -aG docker $USER
@@ -198,7 +198,7 @@ docker version
 
 ---
 
-## 📁 Step 4: Navigate to Project
+## Step 4: Navigate to Project
 
 ```bash
 cd /mnt/d/streamlit-genai-app
@@ -256,7 +256,7 @@ docker run -p 8501:8501 streamlit-genai-app
 
 Open in browser:
 
-👉 http://localhost:8501
+http://localhost:8501
 
 ---
 
@@ -280,7 +280,7 @@ newgrp docker
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 streamlit-genai-app/
@@ -293,7 +293,7 @@ streamlit-genai-app/
 
 ---
 
-##  Future Enhancements
+## Future Enhancements
 
 * Multi-document support
 * Source citation UI
@@ -305,7 +305,7 @@ streamlit-genai-app/
 
 ---
 
-##  Session Context
+## Session Context
 
 This project was built as part of a hands-on session on:
 
